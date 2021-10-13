@@ -1,0 +1,93 @@
+body, div, ul, li {
+    margin: 0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+  body{
+    background: url("https://cdn.wallpapersafari.com/93/76/f1vwBj.jpg") ;
+  }
+  nav{
+    background: #000;
+    height:60px;
+    text-align:center;
+  }
+  .logo img {
+    float:left;
+    height:50px;
+    width:150px;
+    margin-left: 30px;
+  }
+  nav li{
+    float:right;
+    list-style-type:none;
+    height:60px;
+    line-height:60px;
+    padding:0 40px;
+  }
+  nav li:hover{
+    background:red;
+    transition: background .3s;
+  }
+  .nav-link{
+    color:#fff;
+    text-decoration:none;
+  }
+section{
+  width: 80%;
+  height: 670px;
+  background-color: #000;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+section img {
+  padding-left: 18%;
+}
+.characters{
+  height: 400px;
+}
+.family-portrait{
+  margin-top: 40px;
+}
+.character-list{
+  color: #fff;
+  float: right;
+  padding-right: 30%;
+  margin-top: 80px;
+}
+.character-list ul li{
+  font-size: 30px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.menu-container{
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-top: 5%;
+  float: left;
+
+}
+.geneImg{
+  padding-left: 23%;
+  padding-top: 10%;
+}
+.menu-container2{
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-top: 5%;
+  float: right;
+}
